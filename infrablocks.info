@@ -1,0 +1,5 @@
+name = Blocks
+description = Some blocks for Infrafrontier, e.g. form testing
+package = Infrafrontier
+core = 7.x
+version = "1.0"

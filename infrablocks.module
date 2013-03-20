@@ -1,0 +1,23 @@
+<?php
+
+function infrablocks_block_info() {	
+	$blocks['infraformtest'] = array(
+		'info' => t('Example: Infrafrontier Form')
+	);	
+	return $blocks;
+}
+
+function infrablocks_block_view($delta = '') {	
+	
+	switch($delta) {
+		
+		case 'infraformtest':			
+			$block['content'] = '<h1>Content</h1>';			
+		break;
+			
+	}
+
+	return $block;		
+}
+
+?>
